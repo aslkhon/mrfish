@@ -2,14 +2,14 @@
 @import url("https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css");
 @media (max-width: 768px) {
   :root {
-    --bg: url("/images/background/mobileBg.png")
+    --bg: url("../images/background/mobileBg.png")
     ;
   }
 }
 
 @media (min-width: 769px) {
   :root {
-    --bg: url("/images/background/desktopBg.png")
+    --bg: url("../images/background/desktopBg.png")
     ;
   }
 }
@@ -230,7 +230,7 @@ html, body {
       -ms-flex: 1;
           flex: 1;
   height: 100%;
-  background-image: url("/images/images/fish.png");
+  background-image: url("../images/images/fish.png");
   background-size: contain;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -289,7 +289,7 @@ html, body {
 }
 
 #articles .article-group .article {
-  background-image: url("/images/images/photo.jpg");
+  background-image: url("../images/images/photo.jpg");
   background-position: center;
   background-size: cover;
   background-color: #0092af;
@@ -356,7 +356,7 @@ html, body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    background-image: url("/images/background/fish_mobile.jpg");
+    background-image: url("../images/background/fish_mobile.jpg");
   }
 }
 
@@ -365,7 +365,7 @@ html, body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-image: url("/images/background/fish_desktop.jpg");
+    background-image: url("../images/background/fish_desktop.jpg");
   }
   #mission .logos {
     position: absolute;
